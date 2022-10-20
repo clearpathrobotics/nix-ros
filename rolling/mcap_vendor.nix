@@ -4,6 +4,7 @@
   ament_lint_auto,
   ament_lint_common,
   git,
+  zstd_vendor,
 
   buildColconPackage,
   final,
@@ -18,9 +19,11 @@ buildColconPackage {
   colconBuildDepends = [
     ament_cmake
     git
+    zstd_vendor
   ];
 
   colconRunDepends = [
+    zstd_vendor
   ];
 
   colconTestDepends = [

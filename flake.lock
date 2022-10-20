@@ -9,16 +9,16 @@
         "poetry2nix-flake": "poetry2nix-flake"
       },
       "locked": {
-        "lastModified": 1666228036,
-        "narHash": "sha256-5Ob0PbFQSgU5cmxHdM7mj+ojtz2rlUlBQ/opASvC460=",
+        "lastModified": 1666251322,
+        "narHash": "sha256-jpMHAnfD1DBIRClEuYUxv0nuF2byuk/gvkB0egXG4c0=",
         "owner": "clearpathrobotics",
         "repo": "nix-ros-base",
-        "rev": "76879d57b4a4524333884516b0d06c9561d8ed49",
+        "rev": "3ccdc95e260cdcd773c06403fa5ea9c7ec6446f5",
         "type": "github"
       },
       "original": {
         "id": "ros-base",
-        "rev": "76879d57b4a4524333884516b0d06c9561d8ed49",
+        "rev": "3ccdc95e260cdcd773c06403fa5ea9c7ec6446f5",
         "type": "indirect"
       }
     },

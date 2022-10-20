@@ -1,6 +1,6 @@
 {
   inputs = {
-    base.url = "ros-base/76879d57b4a4524333884516b0d06c9561d8ed49";
+    base.url = "ros-base/3ccdc95e260cdcd773c06403fa5ea9c7ec6446f5";
   };
 
   # Everything, including nixpkgs, is passed through the single input flake
@@ -8,14 +8,14 @@
   # here as long as we're at a specific hash for the input above.
   outputs = { self, base }:
     let
-        base-overlays = [
-          (import ./noetic)
-          (import ./rolling)
-        ];
-        refs = {
-          rosdistro = "refs/tags/snapshot/20221019";
-          flake = "20221019-dev";
-        };
+      base-overlays = [
+        (import ./noetic)
+        (import ./rolling)
+      ];
+      refs = {
+        rosdistro = "refs/tags/snapshot/20221020";
+        flake = "20221020-0";
+      };
     in
     base.eachRosSystem (system: rec {
       packages = base.makeRosPackages {

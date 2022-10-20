@@ -3,9 +3,9 @@ let
   pkg = pkgSrc (fetchFromGitHub {
     owner = "ros-planning";
     repo = "moveit2";
-    rev = "a5d4aac713dc436261e7c19f52fa6c65f78aee40";
-    hash = "sha256-+0kxw1t8A3G6caq1GSoIsYE2YW0yi50sTZmRCD1mO+k=";
-    name = "ros-planning-moveit2-a5d4aac713dc436261e7c19f52fa6c65f78aee40";
+    rev = "44821258a71c54a1b2381d8e664dfcdac79c40fa";
+    hash = "sha256-wnw54LM9BbXZFRBu7jluev6RylCBJSLoY3pJ6QPgxio=";
+    name = "ros-planning-moveit2-44821258a71c54a1b2381d8e664dfcdac79c40fa";
   });
 in
 {
@@ -32,7 +32,7 @@ in
   moveit_ros_occupancy_map_monitor = pkg "sha256-YhHfqNmVNNX8wYdOYSeOagGMIQ35Ivvlj3vgVW8Yigw=" "moveit_ros/occupancy_map_monitor";
   moveit_ros_perception = pkg "sha256-hD7dgH4X+gcZgPtq2Wwlt4ln0jzv8LQ5U88o9UFa4Zk=" "moveit_ros/perception";
   moveit_ros_planning = pkg "sha256-8gubHt6RCsqbaoaaVoeKDD7xwppOVa7LajpR+ZFzgoU=" "moveit_ros/planning";
-  moveit_ros_planning_interface = pkg "sha256-0IcFhTUHeKzBhCaJTgAzerBOB6RQYSeCom/Iy0DzQQM=" "moveit_ros/planning_interface";
+  moveit_ros_planning_interface = pkg "sha256-T7ZdSkZYjnUGwsl4ApzUuG7b3MkPqXiBoa+nuw/0TbQ=" "moveit_ros/planning_interface";
   moveit_ros_robot_interaction = pkg "sha256-Z2NysC+MRDtDY1sjJm6+JuEZp22Mr5wwbIoxmnlljHQ=" "moveit_ros/robot_interaction";
   moveit_ros_visualization = pkg "sha256-H1pAbCPAJZR95I5D984kmst1v3uZetttJXUQfN6mgyk=" "moveit_ros/visualization";
   moveit_ros_warehouse = pkg "sha256-WTrylB0it5zsrkAzJXW2oTML9ngOaNFiaPcCo35hiXs=" "moveit_ros/warehouse";

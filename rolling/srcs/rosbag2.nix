@@ -3,9 +3,9 @@ let
   pkg = pkgSrc (fetchFromGitHub {
     owner = "ros2";
     repo = "rosbag2";
-    rev = "5b8b658b1f70a9f6184e4f6f31a42d50267f0b47";
-    hash = "sha256-dyJLMrYVNBx1xpNSu9Zm6xwPrVba1eoNrTtNMwjbWhk=";
-    name = "ros2-rosbag2-5b8b658b1f70a9f6184e4f6f31a42d50267f0b47";
+    rev = "19158f6debe25640507881f9a2c01cdb1fe4741b";
+    hash = "sha256-DnSYT7fxBoi8/LWW+1oLbtPyAyxqV2d3qj0FhJuX2DA=";
+    name = "ros2-rosbag2-19158f6debe25640507881f9a2c01cdb1fe4741b";
   });
 in
 {
@@ -26,5 +26,5 @@ in
   rosbag2_transport = pkg "sha256-yG54q2K6adv6HF+Kbstxw5aVi9nAd5Tue2bwFTHidSo=" "rosbag2_transport";
   shared_queues_vendor = pkg "sha256-gXMQfxVtq+95MV1zBZVbLNOBkmkxzA5fRgfR7pDcApc=" "shared_queues_vendor";
   sqlite3_vendor = pkg "sha256-1SxSxZYB4ScEEqmlHay+4Ysr6OYGnhHOsWMgGcdrefk=" "sqlite3_vendor";
-  zstd_vendor = pkg "sha256-qA9EEC48EioqtvGm9sb3UW9t0PL2jnMirpcF6WUTdJI=" "zstd_vendor";
+  zstd_vendor = pkg "sha256-Ufy4Y/j5wuIxS2FV2g561LEi3Al6Z5sOZJJNiuuoiSk=" "zstd_vendor";
 }

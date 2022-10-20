@@ -1,0 +1,61 @@
+{
+  angles,
+  catkin,
+  control_toolbox,
+  controller_manager,
+  gazebo,
+  gazebo_ros,
+  gazebo_ros_control,
+  hardware_interface,
+  joint_limits_interface,
+  pluginlib,
+  roscpp,
+  std_msgs,
+  transmission_interface,
+  urdf,
+
+  buildColconPackage,
+  final,
+  srcs,
+}:
+
+buildColconPackage {
+  name = "gazebo_ros_control_select_joints";
+  pkgFinal = final.noetic.gazebo_ros_control_select_joints;
+  src = srcs.gazebo_ros_control_select_joints.gazebo_ros_control_select_joints;
+
+  colconBuildDepends = [
+    angles
+    catkin
+    control_toolbox
+    controller_manager
+    gazebo
+    gazebo_ros_control
+    hardware_interface
+    joint_limits_interface
+    pluginlib
+    roscpp
+    std_msgs
+    transmission_interface
+    urdf
+  ];
+
+  colconRunDepends = [
+    angles
+    control_toolbox
+    controller_manager
+    gazebo
+    gazebo_ros
+    gazebo_ros_control
+    hardware_interface
+    joint_limits_interface
+    pluginlib
+    roscpp
+    std_msgs
+    transmission_interface
+    urdf
+  ];
+
+  colconTestDepends = [
+  ];
+}

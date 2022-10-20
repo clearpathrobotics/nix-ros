@@ -1,0 +1,133 @@
+{
+  apriltag_ros,
+  catkin,
+  class_loader,
+  compressed_depth_image_transport,
+  compressed_image_transport,
+  costmap_2d,
+  cv_bridge,
+  dynamic_reconfigure,
+  eigen_conversions,
+  find_object_2d,
+  genmsg,
+  geometry_msgs,
+  image_geometry,
+  image_transport,
+  laser_geometry,
+  message_filters,
+  message_generation,
+  message_runtime,
+  move_base_msgs,
+  nav_msgs,
+  nodelet,
+  octomap_msgs,
+  pcl,
+  pcl_conversions,
+  pcl_ros,
+  pluginlib,
+  roscpp,
+  rosgraph_msgs,
+  rospy,
+  rtabmap,
+  rviz,
+  sensor_msgs,
+  std_msgs,
+  std_srvs,
+  stereo_msgs,
+  tf,
+  tf2_ros,
+  tf_conversions,
+  theora_image_transport,
+  visualization_msgs,
+
+  buildColconPackage,
+  final,
+  srcs,
+}:
+
+buildColconPackage {
+  name = "rtabmap_ros";
+  pkgFinal = final.noetic.rtabmap_ros;
+  src = srcs.rtabmap_ros.rtabmap_ros;
+
+  colconBuildDepends = [
+    apriltag_ros
+    catkin
+    class_loader
+    costmap_2d
+    cv_bridge
+    dynamic_reconfigure
+    eigen_conversions
+    find_object_2d
+    genmsg
+    geometry_msgs
+    image_geometry
+    image_transport
+    laser_geometry
+    message_filters
+    message_generation
+    move_base_msgs
+    nav_msgs
+    nodelet
+    octomap_msgs
+    pcl
+    pcl_conversions
+    pcl_ros
+    pluginlib
+    roscpp
+    rosgraph_msgs
+    rospy
+    rtabmap
+    rviz
+    sensor_msgs
+    std_msgs
+    std_srvs
+    stereo_msgs
+    tf
+    tf2_ros
+    tf_conversions
+    visualization_msgs
+  ];
+
+  colconRunDepends = [
+    apriltag_ros
+    class_loader
+    compressed_depth_image_transport
+    compressed_image_transport
+    costmap_2d
+    cv_bridge
+    dynamic_reconfigure
+    eigen_conversions
+    find_object_2d
+    geometry_msgs
+    image_geometry
+    image_transport
+    laser_geometry
+    message_filters
+    message_runtime
+    move_base_msgs
+    nav_msgs
+    nodelet
+    octomap_msgs
+    pcl_conversions
+    pcl_ros
+    pluginlib
+    roscpp
+    rosgraph_msgs
+    rospy
+    rtabmap
+    rviz
+    sensor_msgs
+    std_msgs
+    std_srvs
+    stereo_msgs
+    tf
+    tf2_ros
+    tf_conversions
+    theora_image_transport
+    visualization_msgs
+  ];
+
+  colconTestDepends = [
+  ];
+}

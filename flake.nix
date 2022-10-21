@@ -1,6 +1,6 @@
 {
   inputs = {
-    base.url = "ros-base/3ccdc95e260cdcd773c06403fa5ea9c7ec6446f5";
+    base.url = "ros-base/a7130a4fe5b65e7832555be5a9b9f95a50493a0f";
   };
 
   # Everything, including nixpkgs, is passed through the single input flake
@@ -14,22 +14,20 @@
       ];
       refs = {
         rosdistro = "refs/tags/snapshot/20221020";
-        flake = "20221020-0";
+        flake = "20221020-1";
       };
-    in
-    base.eachRosSystem (system: rec {
-      packages = base.makeRosPackages {
+    in base.eachRosSystem (system: rec {
+      packages = (base.makeRosPackages {
         system = system;
         base-overlays = base-overlays;
         top-level-metadata = refs;
+      }) // {
+        ci = (base.nixpkgs.legacyPackages.${system}.linkFarm "ros-ci"
+            (base.ciPackages packages));
       };
 
       # Defines the package that is used for a bare "nix develop"
-      defaultPackage = packages.sdk;
-
-      # Hydra jobs are specified in the common flake rather than
-      # hard-coded here.
-      hydraJobs = base.hydraJobs packages;
+      defaultPackage = packages.noetic.desktop_full;
 
       # Pass this through so it's conveniently usable for workspace flakes.
       inherit (base.nixpkgs.legacyPackages.${system}) mkShell;

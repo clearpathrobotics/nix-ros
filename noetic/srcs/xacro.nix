@@ -3,11 +3,11 @@ let
   pkg = pkgSrc (fetchFromGitHub {
     owner = "ros";
     repo = "xacro";
-    rev = "a8738a4c632fc767c05b9a3bf55209b71ea65f91";
-    hash = "sha256-wQEPWoQzNW2+zyHvZBbxePDRW65svUGoGydctfe0gmQ=";
-    name = "ros-xacro-a8738a4c632fc767c05b9a3bf55209b71ea65f91";
+    rev = "9b403b10ed0da9eb22cfb87e70f9932a4c9e08ea";
+    hash = "sha256-o1KPhH2ZEaRPNSBg1XL8KwEIxRMk8AOvQMCCZ5rjWqo=";
+    name = "ros-xacro-9b403b10ed0da9eb22cfb87e70f9932a4c9e08ea";
   });
 in
 {
-  xacro = pkg "sha256-wQEPWoQzNW2+zyHvZBbxePDRW65svUGoGydctfe0gmQ=" ".";
+  xacro = pkg "sha256-o1KPhH2ZEaRPNSBg1XL8KwEIxRMk8AOvQMCCZ5rjWqo=" ".";
 }

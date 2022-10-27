@@ -3,11 +3,11 @@ let
   pkg = pkgSrc (fetchFromGitHub {
     owner = "ros-tooling";
     repo = "libstatistics_collector";
-    rev = "03112ab37e0fb7bc95d27fbc16c5f6335b2acda8";
-    hash = "sha256-Rc/F/YKEqYxT9YgPZmyDjKcbomJL0avoiYKmzUimjso=";
-    name = "ros-tooling-libstatistics_collector-03112ab37e0fb7bc95d27fbc16c5f6335b2acda8";
+    rev = "740a3691c71c6ae82a15a11f6ef66dc782f464b6";
+    hash = "sha256-K2Z6Ws0wvDOh99JdVTttbeYG861jJ1iUl6DM06LPSdA=";
+    name = "ros-tooling-libstatistics_collector-740a3691c71c6ae82a15a11f6ef66dc782f464b6";
   });
 in
 {
-  libstatistics_collector = pkg "sha256-Rc/F/YKEqYxT9YgPZmyDjKcbomJL0avoiYKmzUimjso=" ".";
+  libstatistics_collector = pkg "sha256-K2Z6Ws0wvDOh99JdVTttbeYG861jJ1iUl6DM06LPSdA=" ".";
 }

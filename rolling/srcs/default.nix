@@ -99,6 +99,8 @@
   joystick_drivers = callPackages ./joystick_drivers.nix {};
   kdl_parser = callPackages ./kdl_parser.nix {};
   keyboard_handler = callPackages ./keyboard_handler.nix {};
+  kinematics_interface = callPackages ./kinematics_interface.nix {};
+  kobuki_core = callPackages ./kobuki_core.nix {};
   kobuki_ros_interfaces = callPackages ./kobuki_ros_interfaces.nix {};
   kobuki_velocity_smoother = callPackages ./kobuki_velocity_smoother.nix {};
   lanelet2 = callPackages ./lanelet2.nix {};

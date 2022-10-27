@@ -3,9 +3,9 @@ let
   pkg = pkgSrc (fetchFromGitHub {
     owner = "locusrobotics";
     repo = "catkin_virtualenv";
-    rev = "8ebe799542ffd7c7e6e57e987addab8d676bc1ae";
-    hash = "sha256-BsLHysL/m3RB+gdBZM5uTeuxWDCExI1REQWtDK4rHn0=";
-    name = "locusrobotics-catkin_virtualenv-8ebe799542ffd7c7e6e57e987addab8d676bc1ae";
+    rev = "b42a44f9717e5e7e2db6c0b69c22440f693e48aa";
+    hash = "sha256-qy3wm6hKWKH3KHvr75/gMtTn7uiaX8xjZdRHN43TN60=";
+    name = "locusrobotics-catkin_virtualenv-b42a44f9717e5e7e2db6c0b69c22440f693e48aa";
   });
 in
 {

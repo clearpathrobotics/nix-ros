@@ -3,9 +3,9 @@ let
   pkg = pkgSrc (fetchFromGitHub {
     owner = "euslisp";
     repo = "EusLisp";
-    rev = "7b154531f3fd3d81930eb51b34eec86f8d7dc918";
-    hash = "sha256-FDKtpNBaCkbBOBEtcoxJhs/Zzh41Zpb77p8CRjltU4M=";
-    name = "euslisp-EusLisp-7b154531f3fd3d81930eb51b34eec86f8d7dc918";
+    rev = "9b1a896af3dad4a245d97d745130939ca2814f6b";
+    hash = "sha256-6rKR2zQKIGb+6lLCh9eOnH0/O59DSclOX6DwradIScc=";
+    name = "euslisp-EusLisp-9b1a896af3dad4a245d97d745130939ca2814f6b";
   });
 in
 {

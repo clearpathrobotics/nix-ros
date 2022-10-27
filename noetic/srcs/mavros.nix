@@ -3,13 +3,13 @@ let
   pkg = pkgSrc (fetchFromGitHub {
     owner = "mavlink";
     repo = "mavros";
-    rev = "0af02a552b7ea981a64aca2bd307ce56020ed4c2";
-    hash = "sha256-IsV8kppHS6128n0URY4t5vzyOwhGw8cXOknF68vlqA4=";
-    name = "mavlink-mavros-0af02a552b7ea981a64aca2bd307ce56020ed4c2";
+    rev = "3795202c521956c148a80e62fbd3a2947655d611";
+    hash = "sha256-o4NgtRDLnQSV9myFeEb2WK5npoisj0cGEqsp9RjEoTs=";
+    name = "mavlink-mavros-3795202c521956c148a80e62fbd3a2947655d611";
   });
 in
 {
-  libmavconn = pkg "sha256-ctkvJh42g0Ps6iLS3VMspiUHm6q6BJIZR65daIk2y9U=" "libmavconn";
+  libmavconn = pkg "sha256-3sdj8GvbAhWjkNfYHH2BOwDF/yzU735zqpzNQH0Xg40=" "libmavconn";
   mavros = pkg "sha256-EX6tkOJul7DJvQAALsNSdJIcPN5vEHMlCoeMnS9r3Cg=" "mavros";
   mavros_extras = pkg "sha256-p/QGy7dnH/GYR6dKfLhaNhf7EdcGwRS4yOP4LbtJAMg=" "mavros_extras";
   mavros_msgs = pkg "sha256-UgaE5d2H5/bzyJ2ENe1bc39LmmKCPhcAOnoTkGqrnII=" "mavros_msgs";

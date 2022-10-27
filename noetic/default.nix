@@ -1427,6 +1427,7 @@ in {
         robot_upstart = callPackage ./robot_upstart.nix;
         roboticsgroup_upatras_gazebo_plugins = callPackage ./roboticsgroup_upatras_gazebo_plugins.nix;
         robotis_manipulator = callPackage ./robotis_manipulator.nix;
+        robotont_description = callPackage ./robotont_description.nix;
         robotraconteur = callPackage ./robotraconteur.nix;
         rokubimini = callPackage ./rokubimini.nix;
         rokubimini_bus_manager = callPackage ./rokubimini_bus_manager.nix;

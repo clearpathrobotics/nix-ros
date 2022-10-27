@@ -4,6 +4,7 @@
   ament_lint_common,
   builtin_interfaces,
   camera_info_manager,
+  cv_bridge,
   ffmpeg,
   image_transport,
   image_transport_plugins,
@@ -30,6 +31,7 @@ buildColconPackage {
     ament_cmake_auto
     builtin_interfaces
     camera_info_manager
+    cv_bridge
     ffmpeg
     image_transport
     image_transport_plugins
@@ -45,6 +47,7 @@ buildColconPackage {
   colconRunDepends = [
     builtin_interfaces
     camera_info_manager
+    cv_bridge
     ffmpeg
     image_transport
     image_transport_plugins

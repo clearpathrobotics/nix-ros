@@ -5,6 +5,7 @@
   ament_lint_common,
   controller_interface,
   controller_manager,
+  generate_parameter_library,
   hardware_interface,
   pluginlib,
   rclcpp,
@@ -26,6 +27,7 @@ buildColconPackage {
   colconBuildDepends = [
     ament_cmake
     controller_interface
+    generate_parameter_library
     hardware_interface
     pluginlib
     rclcpp
@@ -36,6 +38,7 @@ buildColconPackage {
 
   colconRunDepends = [
     controller_interface
+    generate_parameter_library
     hardware_interface
     pluginlib
     rclcpp

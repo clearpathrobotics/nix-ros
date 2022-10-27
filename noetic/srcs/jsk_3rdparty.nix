@@ -3,9 +3,9 @@ let
   pkg = pkgSrc (fetchFromGitHub {
     owner = "jsk-ros-pkg";
     repo = "jsk_3rdparty";
-    rev = "d369b43ba8d5d239d7bb5b8dc567097703a293e6";
-    hash = "sha256-olvNiQM8emrhtlpaw5oWPk/dvi5BAiFxfNwbLiE2pko=";
-    name = "jsk-ros-pkg-jsk_3rdparty-d369b43ba8d5d239d7bb5b8dc567097703a293e6";
+    rev = "328668df4de2957097e5701fcc5f82a53aa9601d";
+    hash = "sha256-Yh5R8j5M8R70emDbtrWUQa3UFWa7lc6X7F4mPxYaFbQ=";
+    name = "jsk-ros-pkg-jsk_3rdparty-328668df4de2957097e5701fcc5f82a53aa9601d";
   });
 in
 {

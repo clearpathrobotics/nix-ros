@@ -12,6 +12,7 @@
   roslaunch,
   rostopic,
   teleop_twist_joy,
+  teleop_twist_keyboard,
   twist_mux,
 
   buildColconPackage,
@@ -41,6 +42,7 @@ buildColconPackage {
     robot_state_publisher
     rostopic
     teleop_twist_joy
+    teleop_twist_keyboard
     twist_mux
   ];
 

@@ -3,11 +3,11 @@ let
   pkg = pkgSrc (fetchFromGitHub {
     owner = "humanoid-path-planner";
     repo = "hpp-fcl";
-    rev = "565480a3df68058bd48ae26c00b684d134f28d4b";
-    hash = "sha256-8s+Ur0R2zJxI4pAw8O9GsOqfy88zF+rByepYkl+ZxZo=";
-    name = "humanoid-path-planner-hpp-fcl-565480a3df68058bd48ae26c00b684d134f28d4b";
+    rev = "54fae6dc4bee50d38e976e8a28d5f39869997f3a";
+    hash = "sha256-+XZ/IZAP3aYZtaJ10vcnBTJkPY1N82L7naGS+Yq++ZU=";
+    name = "humanoid-path-planner-hpp-fcl-54fae6dc4bee50d38e976e8a28d5f39869997f3a";
   });
 in
 {
-  hpp-fcl = pkg "sha256-8s+Ur0R2zJxI4pAw8O9GsOqfy88zF+rByepYkl+ZxZo=" ".";
+  hpp-fcl = pkg "sha256-+XZ/IZAP3aYZtaJ10vcnBTJkPY1N82L7naGS+Yq++ZU=" ".";
 }

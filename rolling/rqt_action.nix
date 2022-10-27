@@ -1,6 +1,6 @@
 {
-  python_qt_binding,
-  rclpy,
+  ament_flake8,
+  ament_xmllint,
   rqt_gui,
   rqt_gui_py,
   rqt_msg,
@@ -20,8 +20,6 @@ buildColconPackage {
   ];
 
   colconRunDepends = [
-    python_qt_binding
-    rclpy
     rqt_gui
     rqt_gui_py
     rqt_msg
@@ -29,5 +27,7 @@ buildColconPackage {
   ];
 
   colconTestDepends = [
+    ament_flake8
+    ament_xmllint
   ];
 }

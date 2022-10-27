@@ -1,5 +1,6 @@
 {
-  catkin,
+  git,
+  ros_environment,
 
   buildColconPackage,
   final,
@@ -12,7 +13,8 @@ buildColconPackage {
   src = srcs.osqp_vendor.osqp_vendor;
 
   colconBuildDepends = [
-    catkin
+    git
+    ros_environment
   ];
 
   colconRunDepends = [

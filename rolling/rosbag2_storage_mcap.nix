@@ -11,7 +11,7 @@
   rcutils,
   rosbag2_cpp,
   rosbag2_storage,
-  rosbag2_storage_mcap_test_fixture_interfaces,
+  rosbag2_storage_mcap_testdata,
   rosbag2_test_common,
   std_msgs,
 
@@ -49,7 +49,7 @@ buildColconPackage {
     ament_lint_common
     rcpputils
     rosbag2_cpp
-    rosbag2_storage_mcap_test_fixture_interfaces
+    rosbag2_storage_mcap_testdata
     rosbag2_test_common
     std_msgs
   ];

@@ -3,11 +3,11 @@ let
   pkg = pkgSrc (fetchFromGitHub {
     owner = "githubuser0xFFFF";
     repo = "Qt-Advanced-Docking-System";
-    rev = "6444e7424fcf571eb6168be53c481e5e44115af9";
-    hash = "sha256-Rid/A2oLKMMZ1buLzaCaeu6NymTUoLoPjffpVArrRw8=";
-    name = "githubuser0xFFFF-Qt-Advanced-Docking-System-6444e7424fcf571eb6168be53c481e5e44115af9";
+    rev = "00e4dc14ba384feb579b218b70458dc5fc9de82c";
+    hash = "sha256-BMsdoWcgCtCC43mLKdPH7v1xhhk5M6we/HyhWHNZn9s=";
+    name = "githubuser0xFFFF-Qt-Advanced-Docking-System-00e4dc14ba384feb579b218b70458dc5fc9de82c";
   });
 in
 {
-  QtADS = pkg "sha256-Rid/A2oLKMMZ1buLzaCaeu6NymTUoLoPjffpVArrRw8=" ".";
+  QtADS = pkg "sha256-BMsdoWcgCtCC43mLKdPH7v1xhhk5M6we/HyhWHNZn9s=" ".";
 }

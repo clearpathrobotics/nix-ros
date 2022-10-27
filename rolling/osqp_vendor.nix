@@ -1,8 +1,6 @@
 {
-  ament_cmake,
-  ament_lint_auto,
-  ament_lint_common,
   git,
+  ros_environment,
 
   buildColconPackage,
   final,
@@ -15,15 +13,13 @@ buildColconPackage {
   src = srcs.osqp_vendor.osqp_vendor;
 
   colconBuildDepends = [
-    ament_cmake
     git
+    ros_environment
   ];
 
   colconRunDepends = [
   ];
 
   colconTestDepends = [
-    ament_lint_auto
-    ament_lint_common
   ];
 }

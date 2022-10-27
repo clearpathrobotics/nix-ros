@@ -3,17 +3,17 @@ let
   pkg = pkgSrc (fetchFromGitHub {
     owner = "RobotWebTools";
     repo = "rosbridge_suite";
-    rev = "7f200fb2bfe3e2459771b4db9e15f1b327e76924";
-    hash = "sha256-iG3jDMTiKA5qbAM5bqJSof5gVF5NrQFyAnrabj/LdYA=";
-    name = "RobotWebTools-rosbridge_suite-7f200fb2bfe3e2459771b4db9e15f1b327e76924";
+    rev = "875710dbef037f09e3caf62128481852c8fe5aea";
+    hash = "sha256-XHRm25vzsTE8XUEb5A4kXrHUp8FECyQLPv/PsW4qg7Y=";
+    name = "RobotWebTools-rosbridge_suite-875710dbef037f09e3caf62128481852c8fe5aea";
   });
 in
 {
-  rosapi = pkg "sha256-HNTLatMPz8Mn/Rn5UKm83HLn8A+lseRLYprkIVYt7pg=" "rosapi";
-  rosapi_msgs = pkg "sha256-eU3SYyqAIHjyKEVon3+wvKZDOlAbajLMaQadVmVtea8=" "rosapi_msgs";
-  rosbridge_library = pkg "sha256-MOFyJbTAWCdZRfTPkUjqVRgIfzHa/FDnGicjPMHriBI=" "rosbridge_library";
-  rosbridge_msgs = pkg "sha256-0c/OkcywET0h61m9CzcZ+RQQNaG59MpFZUSbpV2ZRxk=" "rosbridge_msgs";
-  rosbridge_server = pkg "sha256-8Rs5KGjxYjU582plLXmc8SbMR0rVbFgwrhj5f+YL+Ho=" "rosbridge_server";
-  rosbridge_suite = pkg "sha256-aVe2UYUmGhekRksHhoJlCVwTm5fA4gQwPjfyikQQgbU=" "rosbridge_suite";
-  rosbridge_test_msgs = pkg "sha256-jzrxO2h5h86tvbu6QZiqH/sKTsYs6Lgh4qEZceMns5E=" "rosbridge_test_msgs";
+  rosapi = pkg "sha256-xyStRT/4J+A6f1qaIk41X5un6h8s/aFEGdHcIQofWHg=" "rosapi";
+  rosapi_msgs = pkg "sha256-Q4dTs68oi8RWGF2fto9PtQNCnoH23yoHPnNZkMLJBRE=" "rosapi_msgs";
+  rosbridge_library = pkg "sha256-N/PN8jn57yPt/8PpynUAVchkFfftkKbyDD0SUeiNDRA=" "rosbridge_library";
+  rosbridge_msgs = pkg "sha256-fa8a7XqxoY7IgwXCc994LiFABO2+hCdOVKmPRxpT3PQ=" "rosbridge_msgs";
+  rosbridge_server = pkg "sha256-9ZEuYgm9SsCvZbTmPbCNpnyLaCSqhug6euq1z3YlEqs=" "rosbridge_server";
+  rosbridge_suite = pkg "sha256-GCCnTrZrj1fE7QXPG5N1kyb5GiaunUe6YsYLdnGRJJ8=" "rosbridge_suite";
+  rosbridge_test_msgs = pkg "sha256-QbIObUjU3gN7gPnoKMc6Yu+ZEnUDP+vtpzT81rjq2xg=" "rosbridge_test_msgs";
 }

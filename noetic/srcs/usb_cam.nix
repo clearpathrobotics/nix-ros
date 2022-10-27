@@ -3,11 +3,11 @@ let
   pkg = pkgSrc (fetchFromGitHub {
     owner = "ros-drivers";
     repo = "usb_cam";
-    rev = "3ce8ee1c47c03be37229bf5857ae9a309d8eb1e8";
-    hash = "sha256-KmDRkHZi4KTfICauTEMpaN8J/tlxgLpCeMbu0iXhHfg=";
-    name = "ros-drivers-usb_cam-3ce8ee1c47c03be37229bf5857ae9a309d8eb1e8";
+    rev = "37451954a7f73af99428b0712aaa609c11464b53";
+    hash = "sha256-oiegkml8u02s86Oi1gkTgN5JzFNIoc/1QIurnL5HuaE=";
+    name = "ros-drivers-usb_cam-37451954a7f73af99428b0712aaa609c11464b53";
   });
 in
 {
-  usb_cam = pkg "sha256-KmDRkHZi4KTfICauTEMpaN8J/tlxgLpCeMbu0iXhHfg=" ".";
+  usb_cam = pkg "sha256-oiegkml8u02s86Oi1gkTgN5JzFNIoc/1QIurnL5HuaE=" ".";
 }

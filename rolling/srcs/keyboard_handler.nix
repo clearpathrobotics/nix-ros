@@ -3,9 +3,9 @@ let
   pkg = pkgSrc (fetchFromGitHub {
     owner = "ros-tooling";
     repo = "keyboard_handler";
-    rev = "bca61efd6ef1c5100d14689b935363bc3cdca070";
-    hash = "sha256-4tltyZzSGEWP65NF9HSg+FiOn2L/sKPQA2UwX32N8EM=";
-    name = "ros-tooling-keyboard_handler-bca61efd6ef1c5100d14689b935363bc3cdca070";
+    rev = "572fd8944008d3e92b1fc0a1fe57f94513ee960b";
+    hash = "sha256-TiQ48MseXaOReAG1DVVWD01g9zcQKoBu+we4EJ291Ak=";
+    name = "ros-tooling-keyboard_handler-572fd8944008d3e92b1fc0a1fe57f94513ee960b";
   });
 in
 {

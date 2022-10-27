@@ -1,6 +1,7 @@
 {
   camera_info_manager,
   catkin,
+  cv_bridge,
   ffmpeg,
   image_transport,
   roscpp,
@@ -22,6 +23,7 @@ buildColconPackage {
   colconBuildDepends = [
     camera_info_manager
     catkin
+    cv_bridge
     ffmpeg
     image_transport
     roscpp
@@ -32,6 +34,7 @@ buildColconPackage {
 
   colconRunDepends = [
     camera_info_manager
+    cv_bridge
     ffmpeg
     image_transport
     roscpp

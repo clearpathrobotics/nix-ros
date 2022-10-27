@@ -3,11 +3,11 @@ let
   pkg = pkgSrc (fetchFromGitHub {
     owner = "IntelRealSense";
     repo = "librealsense";
-    rev = "af7510c8d58f70381056a758cd3f4553aa37fc69";
-    hash = "sha256-Gkp5CYMustI/YXoIKIL1GWPH9ZzrGM4j/i4yUccUHPA=";
-    name = "IntelRealSense-librealsense-af7510c8d58f70381056a758cd3f4553aa37fc69";
+    rev = "923253f645e867c75e3c6c30a84127f41d82f3e9";
+    hash = "sha256-1ExeTpNloGbZC2rUA21My2PmH34+fbrWTx4VnwlzgC8=";
+    name = "IntelRealSense-librealsense-923253f645e867c75e3c6c30a84127f41d82f3e9";
   });
 in
 {
-  librealsense2 = pkg "sha256-Gkp5CYMustI/YXoIKIL1GWPH9ZzrGM4j/i4yUccUHPA=" ".";
+  librealsense2 = pkg "sha256-1ExeTpNloGbZC2rUA21My2PmH34+fbrWTx4VnwlzgC8=" ".";
 }

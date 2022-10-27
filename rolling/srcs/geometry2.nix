@@ -3,9 +3,9 @@ let
   pkg = pkgSrc (fetchFromGitHub {
     owner = "ros2";
     repo = "geometry2";
-    rev = "de08d177d424f0d73efd4ff5951fd1eaabc9638d";
-    hash = "sha256-7E994hoMOQoOZ+up8UFVg3GMaCu/mQkwIqj0VP6CDv4=";
-    name = "ros2-geometry2-de08d177d424f0d73efd4ff5951fd1eaabc9638d";
+    rev = "22ccdfc31f7b10fa18328057f133546407986e15";
+    hash = "sha256-8ueCwSYnmbjJqUXo26Mk9NT3ght+cuel58MPJywEp6U=";
+    name = "ros2-geometry2-22ccdfc31f7b10fa18328057f133546407986e15";
   });
 in
 {
@@ -20,7 +20,7 @@ in
   tf2_kdl = pkg "sha256-56CuwMkgyRqp5V0oxJKHZIBBcbOJTYYPuAk6rQOtAvI=" "tf2_kdl";
   tf2_msgs = pkg "sha256-ftPWJZ0UJ0WfxONC7tmigACAEm0ihVz9xOzl9YsTHvs=" "tf2_msgs";
   tf2_py = pkg "sha256-yB2kO7oe300WHJZiz9pzkQ4+iaSlTCd+sbrM5sxzVRc=" "tf2_py";
-  tf2_ros = pkg "sha256-wI0l4zhqTPX/rH7neeY0nd0mKf8NCgJs0yumTPAT8Ak=" "tf2_ros";
+  tf2_ros = pkg "sha256-C7/trBSvN1XSIFDsX2IqebDQ4Y7n3DoSSXl/cm0jrD0=" "tf2_ros";
   tf2_ros_py = pkg "sha256-ob5ozWAQBjAZvAlYYDH5Ii4iOg5rpuDBxhqW5ANrb+s=" "tf2_ros_py";
   tf2_sensor_msgs = pkg "sha256-D2G/8dfLY2ufbxuH/QBwCxmfbwPNYDeHDcgALD+er2Q=" "tf2_sensor_msgs";
   tf2_tools = pkg "sha256-SO5U8ZaACfM+extzxPMkV8TSEnx8orXVH0o79zKrUrQ=" "tf2_tools";

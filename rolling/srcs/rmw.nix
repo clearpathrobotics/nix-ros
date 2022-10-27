@@ -3,12 +3,12 @@ let
   pkg = pkgSrc (fetchFromGitHub {
     owner = "ros2";
     repo = "rmw";
-    rev = "b635eec56ab3841965f2c1db39e0143d51304c79";
-    hash = "sha256-WYnX0ZJ1lhvnPFhxqFyuetz63jAyLNN3FNQy2ER4uuA=";
-    name = "ros2-rmw-b635eec56ab3841965f2c1db39e0143d51304c79";
+    rev = "6ad4fcbb7ee67dc18ec73385bf3839c14ff61567";
+    hash = "sha256-slSro3Fdw1jyRMZAQCFOQ5Lv5sNI136SltBDjOUeDF0=";
+    name = "ros2-rmw-6ad4fcbb7ee67dc18ec73385bf3839c14ff61567";
   });
 in
 {
-  rmw = pkg "sha256-Q4/oZ5pIkA3Z25QNR/bJ+A1XlTUdYCZJFlusmJsmlng=" "rmw";
+  rmw = pkg "sha256-oKwX53++Bt8esG5hwgXlVBgyWPCni9yTEl0cL+aVj5A=" "rmw";
   rmw_implementation_cmake = pkg "sha256-4+wL6K9GCBv1Fxb0aTqLz4oIVBsmJmRuInjMFcjpSPQ=" "rmw_implementation_cmake";
 }

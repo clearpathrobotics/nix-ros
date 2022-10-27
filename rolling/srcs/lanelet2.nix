@@ -3,9 +3,9 @@ let
   pkg = pkgSrc (fetchFromGitHub {
     owner = "fzi-forschungszentrum-informatik";
     repo = "lanelet2";
-    rev = "ebc31ab3c510829c5cf357e0ab9afeabdaf5f453";
-    hash = "sha256-dT7MBXxlPudMFzqq5cqnlYM12e7+ZtlVYHP+mmltsTo=";
-    name = "fzi-forschungszentrum-informatik-lanelet2-ebc31ab3c510829c5cf357e0ab9afeabdaf5f453";
+    rev = "0bf4324176474c6e8bfba6d7e91f19e1825610d5";
+    hash = "sha256-JTivbbWFeWpjwPXyMQqQi4iiiOo2xj816cFKSgeFOpY=";
+    name = "fzi-forschungszentrum-informatik-lanelet2-0bf4324176474c6e8bfba6d7e91f19e1825610d5";
   });
 in
 {

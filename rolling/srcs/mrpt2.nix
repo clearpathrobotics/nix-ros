@@ -3,11 +3,11 @@ let
   pkg = pkgSrc (fetchFromGitHub {
     owner = "MRPT";
     repo = "mrpt";
-    rev = "607934cf51bedd5b20b5c589c9efc2425d16ff7a";
-    hash = "sha256-+BlVVUJ6iFmCqw1dLsLqOzOlK9+aXMB9PD9WseERzeY=";
-    name = "MRPT-mrpt-607934cf51bedd5b20b5c589c9efc2425d16ff7a";
+    rev = "de389f16f2b35b8d68782cbfe8afa342fbccdeea";
+    hash = "sha256-R/a674kXCR5MY2t72uYnAWjzdT3SyMgDjZdS6eO5QwI=";
+    name = "MRPT-mrpt-de389f16f2b35b8d68782cbfe8afa342fbccdeea";
   });
 in
 {
-  mrpt2 = pkg "sha256-+BlVVUJ6iFmCqw1dLsLqOzOlK9+aXMB9PD9WseERzeY=" ".";
+  mrpt2 = pkg "sha256-R/a674kXCR5MY2t72uYnAWjzdT3SyMgDjZdS6eO5QwI=" ".";
 }

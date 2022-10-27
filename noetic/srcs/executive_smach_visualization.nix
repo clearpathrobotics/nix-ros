@@ -3,12 +3,12 @@ let
   pkg = pkgSrc (fetchFromGitHub {
     owner = "ros-visualization";
     repo = "executive_smach_visualization";
-    rev = "8cc7ab3a17b442423ad5a86fdbc239a3e11fab9a";
-    hash = "sha256-gWe79be6OZ51m4ukV+mP/o/eS0RFSuM6ntJCejztNbE=";
-    name = "ros-visualization-executive_smach_visualization-8cc7ab3a17b442423ad5a86fdbc239a3e11fab9a";
+    rev = "2f7a4c874dfb833f4feeab2484a632d0aa6af007";
+    hash = "sha256-5N8MObtXnYjU9Y2+0Y1MZHWIlTsjm0/g+87hS42UWCQ=";
+    name = "ros-visualization-executive_smach_visualization-2f7a4c874dfb833f4feeab2484a632d0aa6af007";
   });
 in
 {
   executive_smach_visualization = pkg "sha256-+AYysjmP/ZwZNvlVe2q+B8ObyGXp1JlyZbwGo3ccswY=" "executive_smach_visualization";
-  smach_viewer = pkg "sha256-M/5bZwQdDY/FCAZvPFdb5+nkKcHc2Gnkq3AvylV8Mog=" "smach_viewer";
+  smach_viewer = pkg "sha256-hDajlxlt+mbTcqOsb9K+twpQcu0NcY93jHtmRlPOG5A=" "smach_viewer";
 }

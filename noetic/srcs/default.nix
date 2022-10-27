@@ -459,6 +459,7 @@
   robot_upstart = callPackages ./robot_upstart.nix {};
   roboticsgroup_upatras_gazebo_plugins = callPackages ./roboticsgroup_upatras_gazebo_plugins.nix {};
   robotis_manipulator = callPackages ./robotis_manipulator.nix {};
+  robotont_description = callPackages ./robotont_description.nix {};
   robotraconteur = callPackages ./robotraconteur.nix {};
   ros = callPackages ./ros.nix {};
   ros_babel_fish = callPackages ./ros_babel_fish.nix {};

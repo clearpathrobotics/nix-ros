@@ -3,11 +3,11 @@ let
   pkg = pkgSrc (fetchFromGitHub {
     owner = "lagadic";
     repo = "visp";
-    rev = "263d5b26db6908edb38f6792aff9be77382f3a81";
-    hash = "sha256-SQ93TTjF20Zeghx3Lkml/zdjzLqj057AdOUFMR5h+fw=";
-    name = "lagadic-visp-263d5b26db6908edb38f6792aff9be77382f3a81";
+    rev = "b30e03a5920b06badf8cd61131a9937c24300fc1";
+    hash = "sha256-vF007fA/OpkxKRsobAgj5DOQImrenmk+XT51A9T0FmY=";
+    name = "lagadic-visp-b30e03a5920b06badf8cd61131a9937c24300fc1";
   });
 in
 {
-  VISP = pkg "sha256-SQ93TTjF20Zeghx3Lkml/zdjzLqj057AdOUFMR5h+fw=" ".";
+  VISP = pkg "sha256-vF007fA/OpkxKRsobAgj5DOQImrenmk+XT51A9T0FmY=" ".";
 }

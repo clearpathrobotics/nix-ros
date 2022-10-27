@@ -1,6 +1,7 @@
 {
   ament_cmake,
   ament_cmake_pytest,
+  ament_cmake_python,
   ament_index_python,
   ament_lint_auto,
   python3Packages,
@@ -17,6 +18,7 @@ buildColconPackage {
 
   colconBuildDepends = [
     ament_cmake
+    ament_cmake_python
     ament_index_python
     python3Packages.pyyaml
   ];

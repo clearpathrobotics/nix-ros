@@ -3,9 +3,9 @@ let
   pkg = pkgSrc (fetchFromGitHub {
     owner = "LORD-MicroStrain";
     repo = "microstrain_inertial";
-    rev = "e222fa3bdc59fb8e9fc3d9de624b0ffea65e07b7";
+    rev = "0f32cc93a342bf53e8f0e22dbc414b6fff740034";
     hash = "sha256-smIcdX3UHBSwDiY2W7m5cVRRAgI4KILh4eR6nvTZ/N0=";
-    name = "LORD-MicroStrain-microstrain_inertial-e222fa3bdc59fb8e9fc3d9de624b0ffea65e07b7";
+    name = "LORD-MicroStrain-microstrain_inertial-0f32cc93a342bf53e8f0e22dbc414b6fff740034";
   });
 in
 {

@@ -330,6 +330,9 @@ in {
         key_teleop = callPackage ./key_teleop.nix;
         keyboard_client = callPackage ./keyboard_client.nix;
         keyboard_handler = callPackage ./keyboard_handler.nix;
+        kinematics_interface = callPackage ./kinematics_interface.nix;
+        kinematics_interface_kdl = callPackage ./kinematics_interface_kdl.nix;
+        kobuki_core = callPackage ./kobuki_core.nix;
         kobuki_ros_interfaces = callPackage ./kobuki_ros_interfaces.nix;
         kobuki_velocity_smoother = callPackage ./kobuki_velocity_smoother.nix;
         lanelet2 = callPackage ./lanelet2.nix;
@@ -725,7 +728,7 @@ in {
         rosbag2_storage = callPackage ./rosbag2_storage.nix;
         rosbag2_storage_default_plugins = callPackage ./rosbag2_storage_default_plugins.nix;
         rosbag2_storage_mcap = callPackage ./rosbag2_storage_mcap.nix;
-        rosbag2_storage_mcap_test_fixture_interfaces = callPackage ./rosbag2_storage_mcap_test_fixture_interfaces.nix;
+        rosbag2_storage_mcap_testdata = callPackage ./rosbag2_storage_mcap_testdata.nix;
         rosbag2_storage_sqlite3 = callPackage ./rosbag2_storage_sqlite3.nix;
         rosbag2_test_common = callPackage ./rosbag2_test_common.nix;
         rosbag2_tests = callPackage ./rosbag2_tests.nix;

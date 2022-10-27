@@ -3,11 +3,11 @@ let
   pkg = pkgSrc (fetchFromGitHub {
     owner = "ual-arm-ros-pkg";
     repo = "mvsim";
-    rev = "1f235f67f7ed0c45d6be7c2ca25c7bb26ba2c85d";
-    hash = "sha256-lSk9JkmLoncffHlf81bmXKijsRKDc7z0xs9Nf8loihs=";
-    name = "ual-arm-ros-pkg-mvsim-1f235f67f7ed0c45d6be7c2ca25c7bb26ba2c85d";
+    rev = "efa79ba4cc5d9f580f97d381bab1c20e2157dcf5";
+    hash = "sha256-jFadJ6gY0ypFuBem4IFvRHrSL6UwLlkog3RyQGPJWxk=";
+    name = "ual-arm-ros-pkg-mvsim-efa79ba4cc5d9f580f97d381bab1c20e2157dcf5";
   });
 in
 {
-  mvsim = pkg "sha256-lSk9JkmLoncffHlf81bmXKijsRKDc7z0xs9Nf8loihs=" ".";
+  mvsim = pkg "sha256-jFadJ6gY0ypFuBem4IFvRHrSL6UwLlkog3RyQGPJWxk=" ".";
 }

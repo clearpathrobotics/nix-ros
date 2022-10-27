@@ -3,11 +3,11 @@ let
   pkg = pkgSrc (fetchFromGitHub {
     owner = "ros2";
     repo = "rclpy";
-    rev = "e18084fa421fa54a3a6793909d128046b2b5a08e";
-    hash = "sha256-MMYv4VpQbkMnpseaeyO8jkVESFxwvWof6AfYNnrl0K4=";
-    name = "ros2-rclpy-e18084fa421fa54a3a6793909d128046b2b5a08e";
+    rev = "3d8547ad80d9fa72335b9ee0c105a80fcaf275c1";
+    hash = "sha256-iiGa+jCM5nZ6Y1Mr/D7j1HiddAxCF9gG8aaGDXWTDDI=";
+    name = "ros2-rclpy-3d8547ad80d9fa72335b9ee0c105a80fcaf275c1";
   });
 in
 {
-  rclpy = pkg "sha256-Xl9tEfPJIZgnGou2iPQQoikeovYG8mmQW5ACjsZGkW0=" "rclpy";
+  rclpy = pkg "sha256-ozurIFPvwHQKxx5iCg6qV80bEGeJgMxPq5OvwAmRDA8=" "rclpy";
 }

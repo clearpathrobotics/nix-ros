@@ -10,6 +10,7 @@
   geometry_msgs,
   hardware_interface,
   joint_trajectory_controller,
+  kinematics_interface,
   pluginlib,
   rclcpp,
   rclcpp_lifecycle,
@@ -42,6 +43,7 @@ buildColconPackage {
     geometry_msgs
     hardware_interface
     joint_trajectory_controller
+    kinematics_interface
     pluginlib
     rclcpp
     rclcpp_lifecycle
@@ -63,6 +65,7 @@ buildColconPackage {
     geometry_msgs
     hardware_interface
     joint_trajectory_controller
+    kinematics_interface
     pluginlib
     rclcpp
     rclcpp_lifecycle

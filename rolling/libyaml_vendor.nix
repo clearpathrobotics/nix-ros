@@ -4,8 +4,11 @@
   ament_lint_auto,
   ament_lint_common,
   git,
+  libyaml,
   performance_test_fixture,
+  pkg-config,
   rcpputils,
+  rcutils,
 
   buildColconPackage,
   final,
@@ -20,9 +23,13 @@ buildColconPackage {
   colconBuildDepends = [
     ament_cmake
     git
+    libyaml
+    pkg-config
   ];
 
   colconRunDepends = [
+    libyaml
+    pkg-config
   ];
 
   colconTestDepends = [
@@ -31,5 +38,6 @@ buildColconPackage {
     ament_lint_common
     performance_test_fixture
     rcpputils
+    rcutils
   ];
 }

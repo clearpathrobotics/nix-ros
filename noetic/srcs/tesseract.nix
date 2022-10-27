@@ -3,21 +3,21 @@ let
   pkg = pkgSrc (fetchFromGitHub {
     owner = "ros-industrial-consortium";
     repo = "tesseract";
-    rev = "4a755a1910f41c7258dcf17c206f2a0abc3678e2";
-    hash = "sha256-zuhEewi6/+zw0bL8IUUl3/HalnXAqYDQ5n+IWavRrMc=";
-    name = "ros-industrial-consortium-tesseract-4a755a1910f41c7258dcf17c206f2a0abc3678e2";
+    rev = "015a9eb24b4f0eb2f3f6e4ae9f763976c49f4a8a";
+    hash = "sha256-bI7FSIqf+0EQyw3Cf6Tr+P5T6g0k9l3eaLgb+2EbC54=";
+    name = "ros-industrial-consortium-tesseract-015a9eb24b4f0eb2f3f6e4ae9f763976c49f4a8a";
   });
 in
 {
-  tesseract_collision = pkg "sha256-NOA9NR4kyWXXRKNpj1PAKjKNkQ1OANPXkbyceUuAOF0=" "tesseract_collision";
-  tesseract_common = pkg "sha256-7AGZmxm9Kp/VkAu+S/K9pNtk+XUYzCAJdfMwHxv3KFg=" "tesseract_common";
-  tesseract_environment = pkg "sha256-ujyL6I/nVyZwrpcVlIpOCFnMNY3dBi4Xb8NRBL7xdpk=" "tesseract_environment";
-  tesseract_geometry = pkg "sha256-bcXWZ6q836a5UVEXXdVe9jaxNZu3i/ybe8Wk/h5/u4g=" "tesseract_geometry";
-  tesseract_kinematics = pkg "sha256-r6WGKlX92XDojhci0GgfNoIcI1AqPNqaNhPCRK9a0Hw=" "tesseract_kinematics";
-  tesseract_scene_graph = pkg "sha256-aT0vCowk77In3Hx9kQnpkNreyTsgPzfTyrur3+zEEp8=" "tesseract_scene_graph";
-  tesseract_srdf = pkg "sha256-PMytG+a/oT/+V+47wvcpXKuRYvf337x5rY6RJ5YNejI=" "tesseract_srdf";
-  tesseract_state_solver = pkg "sha256-Y7UnksljTrBAbe9WnnTrs4zufNSAnWhL7uSCmHbK28U=" "tesseract_state_solver";
-  tesseract_support = pkg "sha256-y1073V4r2h3V4isF/u5a1jui4F1L0Pck4t4B6jSqfLc=" "tesseract_support";
-  tesseract_urdf = pkg "sha256-8ct+WBD3e+IUg+u7/W8NF4NNYDsG4cSPx6oI2Oev8Sk=" "tesseract_urdf";
-  tesseract_visualization = pkg "sha256-VIR0IYHpVQcpDcXBCVU3l36AnBHpWxPY+yQv8Unq3gA=" "tesseract_visualization";
+  tesseract_collision = pkg "sha256-06maVV8ib2PtGWx3FKQeNAhY4FzbRRfcjXY/gl2vL6s=" "tesseract_collision";
+  tesseract_common = pkg "sha256-EdmzkDo6urFCA/Vk9tkgTWoKmJZrcD3Ud/R0zm9NbeI=" "tesseract_common";
+  tesseract_environment = pkg "sha256-6GT73i6yes/Gj+mgwwBfBexRgcNswCvHe+pT2EJtJ5U=" "tesseract_environment";
+  tesseract_geometry = pkg "sha256-yRGdil8jzHdK6TNpyutEgqjHRfSBHnZnMxGkSAjUBIE=" "tesseract_geometry";
+  tesseract_kinematics = pkg "sha256-hQg8IolSyXEh0QzdOhOrKPe/v/cesGyaIxthGQyuMBI=" "tesseract_kinematics";
+  tesseract_scene_graph = pkg "sha256-il/FdqXlEiJbR2x16emVPOaT9Z3y1cHUcp/hp4Uh8v4=" "tesseract_scene_graph";
+  tesseract_srdf = pkg "sha256-LTvPMf7J6qHnX7GXFXRPc1FUvfZrjj/SzgR8q7XVHYw=" "tesseract_srdf";
+  tesseract_state_solver = pkg "sha256-hDHh194AjqHQn3sP+LCY2ZClyEnYKE+ktmIzWGHPlD8=" "tesseract_state_solver";
+  tesseract_support = pkg "sha256-fRAJMU13N8pI3mItIuQLdftImQqYIcqJqEd0jOxalP4=" "tesseract_support";
+  tesseract_urdf = pkg "sha256-Q/UAefGjxQafrGavqQ5uyuxy7Y9w/LiHKnajXeePd2A=" "tesseract_urdf";
+  tesseract_visualization = pkg "sha256-QM7llP3ehFTCtf8pQd+GEnPWxSBw1iacVRfeyIdw5BQ=" "tesseract_visualization";
 }

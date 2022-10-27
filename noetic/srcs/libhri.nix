@@ -3,11 +3,11 @@ let
   pkg = pkgSrc (fetchFromGitHub {
     owner = "ros4hri";
     repo = "libhri";
-    rev = "a5b0779d0ee609121adeff6bb693ca53325671e5";
-    hash = "sha256-z6U3SXzsgbV9ET3ka5/SNeIwmdrtJCRqEx/5zyPwYPY=";
-    name = "ros4hri-libhri-a5b0779d0ee609121adeff6bb693ca53325671e5";
+    rev = "8f457953c4df25d6e711731197350e140d52df2e";
+    hash = "sha256-i+xSFOXGgkD+LhmS1G2z5pmII765EF1+jLETzm07c50=";
+    name = "ros4hri-libhri-8f457953c4df25d6e711731197350e140d52df2e";
   });
 in
 {
-  hri = pkg "sha256-z6U3SXzsgbV9ET3ka5/SNeIwmdrtJCRqEx/5zyPwYPY=" ".";
+  hri = pkg "sha256-i+xSFOXGgkD+LhmS1G2z5pmII765EF1+jLETzm07c50=" ".";
 }

@@ -3,9 +3,9 @@ let
   pkg = pkgSrc (fetchFromGitHub {
     owner = "ros-planning";
     repo = "moveit2";
-    rev = "44821258a71c54a1b2381d8e664dfcdac79c40fa";
-    hash = "sha256-wnw54LM9BbXZFRBu7jluev6RylCBJSLoY3pJ6QPgxio=";
-    name = "ros-planning-moveit2-44821258a71c54a1b2381d8e664dfcdac79c40fa";
+    rev = "3e25ed94637076ff328894495363c02b351ba445";
+    hash = "sha256-xRv0LdKkaboQPTDyuGBaInp3rAK3ahT8MwBx1AWB0Zk=";
+    name = "ros-planning-moveit2-3e25ed94637076ff328894495363c02b351ba445";
   });
 in
 {

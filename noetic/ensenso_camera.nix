@@ -45,6 +45,7 @@ buildColconPackage {
     pcl_ros
     roscpp
     roslint
+    rospy
     sensor_msgs
     tf2
     tf2_geometry_msgs

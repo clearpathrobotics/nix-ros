@@ -9,16 +9,16 @@
         "poetry2nix": "poetry2nix"
       },
       "locked": {
-        "lastModified": 1667303315,
-        "narHash": "sha256-BTjEPT/vbRyvD0bXYinlKZmbNml7cG7Um6Jv9fb4dVg=",
+        "lastModified": 1667321321,
+        "narHash": "sha256-OPc9TdzU6PlY28EP/I8Xb0U+k4TtdSAbl35nniYrY5A=",
         "owner": "clearpathrobotics",
         "repo": "nix-ros-base",
-        "rev": "23cf557221657ac7845263c2cec2f7b053d8bf13",
+        "rev": "76f97d373d1c61d48df146dbd42df8202a9ff1fe",
         "type": "github"
       },
       "original": {
         "id": "ros-base",
-        "rev": "23cf557221657ac7845263c2cec2f7b053d8bf13",
+        "rev": "76f97d373d1c61d48df146dbd42df8202a9ff1fe",
         "type": "indirect"
       }
     },
@@ -153,16 +153,16 @@
     },
     "nixpkgs_3": {
       "locked": {
-        "lastModified": 1667231093,
-        "narHash": "sha256-RERXruzBEBuf0c7OfZeX1hxEKB+PTCUNxWeB6C1jd8Y=",
+        "lastModified": 1667314267,
+        "narHash": "sha256-AjPX7CvFJTKB0E6z3fcxQqldI6JVVXxSNUnJbRtm7Z8=",
         "owner": "nixos",
         "repo": "nixpkgs",
-        "rev": "d40fea9aeb8840fea0d377baa4b38e39b9582458",
+        "rev": "6739decba3546cf6911f056fb38998da386271cd",
         "type": "github"
       },
       "original": {
         "owner": "nixos",
-        "ref": "nixos-unstable",
+        "ref": "6739decba354",
         "repo": "nixpkgs",
         "type": "github"
       }

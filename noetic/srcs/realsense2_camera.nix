@@ -3,9 +3,9 @@ let
   pkg = pkgSrc (fetchFromGitHub {
     owner = "IntelRealSense";
     repo = "realsense-ros";
-    rev = "e4938bbbfd7b285fe71f81fe69cebcc76dbf72fc";
-    hash = "sha256-ow8Iiuq2SgKcW3aPx2kglpzteTmlmt5TIThBhDarAL4=";
-    name = "IntelRealSense-realsense-ros-e4938bbbfd7b285fe71f81fe69cebcc76dbf72fc";
+    rev = "development";
+    hash = "sha256-+9oGkBZ/OWR/DccWT2UaTQnxuBrFHINO+bp7Z/m+Hec=";
+    name = "IntelRealSense-realsense-ros-development";
   });
 in
 {

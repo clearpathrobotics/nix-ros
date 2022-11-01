@@ -3,11 +3,11 @@ let
   pkg = pkgSrc (fetchFromGitHub {
     owner = "eProsima";
     repo = "Fast-DDS";
-    rev = "ffd4739d681a977079df501787dea857ca7311a0";
-    hash = "sha256-qR1D991ZofYV4jsyKql2Ik88ZuTLgnQmtT8I+bOuBaU=";
-    name = "eProsima-Fast-DDS-ffd4739d681a977079df501787dea857ca7311a0";
+    rev = "0eb12c15a80be4d0bf923fdf2a98ae17410b305c";
+    hash = "sha256-vsHneUcFdAqSTyLVIjR0IboiTzywOGHb4xCeABEJO+0=";
+    name = "eProsima-Fast-DDS-0eb12c15a80be4d0bf923fdf2a98ae17410b305c";
   });
 in
 {
-  fastrtps = pkg "sha256-qR1D991ZofYV4jsyKql2Ik88ZuTLgnQmtT8I+bOuBaU=" ".";
+  fastrtps = pkg "sha256-vsHneUcFdAqSTyLVIjR0IboiTzywOGHb4xCeABEJO+0=" ".";
 }

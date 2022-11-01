@@ -1,6 +1,6 @@
 {
   inputs = {
-    base.url = "ros-base/841f287ca5fea12b3e0b66d4033af0f2960ca9df";
+    base.url = "ros-base/23cf557221657ac7845263c2cec2f7b053d8bf13";
   };
 
   # Everything, including nixpkgs, is passed through the single input flake
@@ -13,8 +13,8 @@
         (import ./rolling)
       ];
       refs = {
-        rosdistro = "refs/tags/snapshot/20221026";
-        flake = "20221026-0";
+        rosdistro = "refs/tags/snapshot/20221101";
+        flake = "20221101-0";
       };
     in base.eachRosSystem (system: rec {
       packages = (base.makeRosPackages {

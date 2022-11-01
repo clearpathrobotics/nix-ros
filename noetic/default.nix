@@ -67,9 +67,6 @@ in {
         assisted_teleop = callPackage ./assisted_teleop.nix;
         async_comm = callPackage ./async_comm.nix;
         async_web_server_cpp = callPackage ./async_web_server_cpp.nix;
-        audibot = callPackage ./audibot.nix;
-        audibot_description = callPackage ./audibot_description.nix;
-        audibot_gazebo = callPackage ./audibot_gazebo.nix;
         audio_capture = callPackage ./audio_capture.nix;
         audio_common = callPackage ./audio_common.nix;
         audio_common_msgs = callPackage ./audio_common_msgs.nix;
@@ -167,6 +164,7 @@ in {
         clpe_ros = callPackage ./clpe_ros.nix;
         clpe_ros_msgs = callPackage ./clpe_ros_msgs.nix;
         cmake_modules = callPackage ./cmake_modules.nix;
+        cmd_vel_smoother = callPackage ./cmd_vel_smoother.nix;
         cmvision = callPackage ./cmvision.nix;
         cnpy = callPackage ./cnpy.nix;
         cob_3d_mapping_msgs = callPackage ./cob_3d_mapping_msgs.nix;
@@ -287,6 +285,7 @@ in {
         compressed_depth_image_transport = callPackage ./compressed_depth_image_transport.nix;
         compressed_image_transport = callPackage ./compressed_image_transport.nix;
         computer_status_msgs = callPackage ./computer_status_msgs.nix;
+        contact_states_observer = callPackage ./contact_states_observer.nix;
         control_box_rst = callPackage ./control_box_rst.nix;
         control_msgs = callPackage ./control_msgs.nix;
         control_toolbox = callPackage ./control_toolbox.nix;
@@ -469,6 +468,9 @@ in {
         ethercat_hardware = callPackage ./ethercat_hardware.nix;
         ethercat_trigger_controllers = callPackage ./ethercat_trigger_controllers.nix;
         eus_assimp = callPackage ./eus_assimp.nix;
+        eus_nlopt = callPackage ./eus_nlopt.nix;
+        eus_qp = callPackage ./eus_qp.nix;
+        eus_qpoases = callPackage ./eus_qpoases.nix;
         euscollada = callPackage ./euscollada.nix;
         euslime = callPackage ./euslime.nix;
         eusurdf = callPackage ./eusurdf.nix;
@@ -748,16 +750,22 @@ in {
         joint_trajectory_generator = callPackage ./joint_trajectory_generator.nix;
         joy = callPackage ./joy.nix;
         joy_listener = callPackage ./joy_listener.nix;
+        joy_mouse = callPackage ./joy_mouse.nix;
         joy_teleop = callPackage ./joy_teleop.nix;
         joystick_drivers = callPackage ./joystick_drivers.nix;
         joystick_interrupt = callPackage ./joystick_interrupt.nix;
         jsk_3rdparty = callPackage ./jsk_3rdparty.nix;
+        jsk_calibration = callPackage ./jsk_calibration.nix;
         jsk_common = callPackage ./jsk_common.nix;
         jsk_common_msgs = callPackage ./jsk_common_msgs.nix;
+        jsk_control = callPackage ./jsk_control.nix;
         jsk_data = callPackage ./jsk_data.nix;
+        jsk_footstep_controller = callPackage ./jsk_footstep_controller.nix;
         jsk_footstep_msgs = callPackage ./jsk_footstep_msgs.nix;
+        jsk_footstep_planner = callPackage ./jsk_footstep_planner.nix;
         jsk_gui_msgs = callPackage ./jsk_gui_msgs.nix;
         jsk_hark_msgs = callPackage ./jsk_hark_msgs.nix;
+        jsk_ik_server = callPackage ./jsk_ik_server.nix;
         jsk_interactive = callPackage ./jsk_interactive.nix;
         jsk_interactive_marker = callPackage ./jsk_interactive_marker.nix;
         jsk_interactive_test = callPackage ./jsk_interactive_test.nix;
@@ -773,6 +781,7 @@ in {
         jsk_roseus = callPackage ./jsk_roseus.nix;
         jsk_rqt_plugins = callPackage ./jsk_rqt_plugins.nix;
         jsk_rviz_plugins = callPackage ./jsk_rviz_plugins.nix;
+        jsk_teleop_joy = callPackage ./jsk_teleop_joy.nix;
         jsk_tilt_laser = callPackage ./jsk_tilt_laser.nix;
         jsk_tools = callPackage ./jsk_tools.nix;
         jsk_topic_tools = callPackage ./jsk_topic_tools.nix;

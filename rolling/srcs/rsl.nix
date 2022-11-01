@@ -3,11 +3,11 @@ let
   pkg = pkgSrc (fetchFromGitHub {
     owner = "PickNikRobotics";
     repo = "RSL";
-    rev = "87fd3acff16194d2683d3e2ab534ceff6ff454f5";
-    hash = "sha256-sxH3Qr0qJFFC6KoknTHMFEWaA2fw9vx0i/tcp8b+wdI=";
-    name = "PickNikRobotics-RSL-87fd3acff16194d2683d3e2ab534ceff6ff454f5";
+    rev = "8992001cf3fd96882a83c9d4f7588e148807f7ca";
+    hash = "sha256-zl10k+Qg0gqIDfj5GEqFv6h6/+4Ju03vk3SXvyy+QKk=";
+    name = "PickNikRobotics-RSL-8992001cf3fd96882a83c9d4f7588e148807f7ca";
   });
 in
 {
-  rsl = pkg "sha256-sxH3Qr0qJFFC6KoknTHMFEWaA2fw9vx0i/tcp8b+wdI=" ".";
+  rsl = pkg "sha256-zl10k+Qg0gqIDfj5GEqFv6h6/+4Ju03vk3SXvyy+QKk=" ".";
 }

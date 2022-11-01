@@ -30,6 +30,7 @@ buildColconPackage {
   colconRunDepends = [
     builtin_interfaces
     geometry_msgs
+    rcl_interfaces
     rosidl_default_runtime
     std_msgs
   ];

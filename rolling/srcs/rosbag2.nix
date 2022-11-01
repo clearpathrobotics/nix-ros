@@ -3,13 +3,13 @@ let
   pkg = pkgSrc (fetchFromGitHub {
     owner = "ros2";
     repo = "rosbag2";
-    rev = "19158f6debe25640507881f9a2c01cdb1fe4741b";
-    hash = "sha256-DnSYT7fxBoi8/LWW+1oLbtPyAyxqV2d3qj0FhJuX2DA=";
-    name = "ros2-rosbag2-19158f6debe25640507881f9a2c01cdb1fe4741b";
+    rev = "3df2fe30ece1b3490da6f8af8b7c24ed11c7bba9";
+    hash = "sha256-NH/MaMTD7ujv4CBjPWqpJSHzKvpP2yztP8kePRwpLTg=";
+    name = "ros2-rosbag2-3df2fe30ece1b3490da6f8af8b7c24ed11c7bba9";
   });
 in
 {
-  ros2bag = pkg "sha256-/sF1e4lXobR+RkJkTNFomN85sW0Qe1vDGWgceFKkulM=" "ros2bag";
+  ros2bag = pkg "sha256-O6/N0oPiK5bHOc0KfD6NA55THopQLFMBEg/KPWlle4M=" "ros2bag";
   rosbag2 = pkg "sha256-BPnoyEJFNaII80+6ZJfj5E4qDQVk+2KMVO4277/9fR8=" "rosbag2";
   rosbag2_compression = pkg "sha256-4mfDEIdlzpsI1DeKpfjAsebprGluqzJZJEQYaQUG5rA=" "rosbag2_compression";
   rosbag2_compression_zstd = pkg "sha256-SExR9XPUs/HiWUePxb5EaHPadSI+xvWyR5WvTlfKk1E=" "rosbag2_compression_zstd";
@@ -20,10 +20,10 @@ in
   rosbag2_py = pkg "sha256-wLCw/+OI+y8ulEtUZhVxtEdwy0pJUhyTiifBZim7mYo=" "rosbag2_py";
   rosbag2_storage = pkg "sha256-VpiOjcRmyumn3p4Bw5BFAGYmBPusoHpkQImOSmSM1gg=" "rosbag2_storage";
   rosbag2_storage_default_plugins = pkg "sha256-wOecx5SEuUsJt9DQPe+J5NibKXLWKbKpmyKKU5qgeoM=" "rosbag2_storage_default_plugins";
-  rosbag2_storage_sqlite3 = pkg "sha256-S36KqyRbZgGuu7jPQTAgFPw1lCrljVQsox4DedGkkPs=" "rosbag2_storage_sqlite3";
+  rosbag2_storage_sqlite3 = pkg "sha256-JzbmwMHji8yFgXYJIpKufW7j90x270m/qKnolbHuKSw=" "rosbag2_storage_sqlite3";
   rosbag2_test_common = pkg "sha256-HueCSFtYybIgpmlclxf1rk47qtAazVwJtLVFDJWjG2g=" "rosbag2_test_common";
   rosbag2_tests = pkg "sha256-cvJZfsRZPcy+YlrGMJBjC4qguhjuWnmSCANgGe9KvXw=" "rosbag2_tests";
-  rosbag2_transport = pkg "sha256-yG54q2K6adv6HF+Kbstxw5aVi9nAd5Tue2bwFTHidSo=" "rosbag2_transport";
+  rosbag2_transport = pkg "sha256-JkQy1s0RKM0ndCV/eqXfhTCXQC/RVm6/NkOlpLF1LcA=" "rosbag2_transport";
   shared_queues_vendor = pkg "sha256-gXMQfxVtq+95MV1zBZVbLNOBkmkxzA5fRgfR7pDcApc=" "shared_queues_vendor";
   sqlite3_vendor = pkg "sha256-1SxSxZYB4ScEEqmlHay+4Ysr6OYGnhHOsWMgGcdrefk=" "sqlite3_vendor";
   zstd_vendor = pkg "sha256-Ufy4Y/j5wuIxS2FV2g561LEi3Al6Z5sOZJJNiuuoiSk=" "zstd_vendor";

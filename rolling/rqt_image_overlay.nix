@@ -9,6 +9,7 @@
   qt5,
   rclcpp,
   ros_image_to_qimage,
+  rqt_gui,
   rqt_gui_cpp,
   rqt_image_overlay_layer,
   std_msgs,
@@ -30,6 +31,7 @@ buildColconPackage {
     qt5.qtbase
     rclcpp
     ros_image_to_qimage
+    rqt_gui
     rqt_gui_cpp
     rqt_image_overlay_layer
   ];
@@ -40,6 +42,7 @@ buildColconPackage {
     qt5.qtbase
     rclcpp
     ros_image_to_qimage
+    rqt_gui
     rqt_gui_cpp
     rqt_image_overlay_layer
   ];

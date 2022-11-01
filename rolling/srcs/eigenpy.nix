@@ -3,11 +3,11 @@ let
   pkg = pkgSrc (fetchFromGitHub {
     owner = "stack-of-tasks";
     repo = "eigenpy";
-    rev = "6066a36cdf8e42cd4059a09ef06b327aef1acbbc";
-    hash = "sha256-eAW+TVUaFLvPVGnZJrppUIwhVkosUPSn8hyksMXUDsU=";
-    name = "stack-of-tasks-eigenpy-6066a36cdf8e42cd4059a09ef06b327aef1acbbc";
+    rev = "fa4d8c62158eddbc0a5c598aae9167b6c847e40c";
+    hash = "sha256-mOG2kxznxke+NcxGD5dLBneLHJ1ysRLJSKu7ngjxvdc=";
+    name = "stack-of-tasks-eigenpy-fa4d8c62158eddbc0a5c598aae9167b6c847e40c";
   });
 in
 {
-  eigenpy = pkg "sha256-eAW+TVUaFLvPVGnZJrppUIwhVkosUPSn8hyksMXUDsU=" ".";
+  eigenpy = pkg "sha256-mOG2kxznxke+NcxGD5dLBneLHJ1ysRLJSKu7ngjxvdc=" ".";
 }

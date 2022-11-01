@@ -3,9 +3,9 @@ let
   pkg = pkgSrc (fetchFromGitHub {
     owner = "foxglove";
     repo = "schemas";
-    rev = "0dcb4176e9e12a96e90cea497bcfad48b6301155";
-    hash = "sha256-RfE7MDttfhYLMOPrts8I0oHPGGsgbFY2sYZhGVa9w10=";
-    name = "foxglove-schemas-0dcb4176e9e12a96e90cea497bcfad48b6301155";
+    rev = "b36014a3987ea81cf0184b7abb2d6ab6a3888688";
+    hash = "sha256-U39aWXNMEW4pPCqAfBJ8v9Ekb04BzyrkgrUdvkLXnzc=";
+    name = "foxglove-schemas-b36014a3987ea81cf0184b7abb2d6ab6a3888688";
   });
 in
 {

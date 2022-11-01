@@ -223,6 +223,7 @@
   jsk_3rdparty = callPackages ./jsk_3rdparty.nix {};
   jsk_common = callPackages ./jsk_common.nix {};
   jsk_common_msgs = callPackages ./jsk_common_msgs.nix {};
+  jsk_control = callPackages ./jsk_control.nix {};
   jsk_model_tools = callPackages ./jsk_model_tools.nix {};
   jsk_recognition = callPackages ./jsk_recognition.nix {};
   jsk_roseus = callPackages ./jsk_roseus.nix {};

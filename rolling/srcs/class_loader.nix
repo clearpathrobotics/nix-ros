@@ -3,11 +3,11 @@ let
   pkg = pkgSrc (fetchFromGitHub {
     owner = "ros";
     repo = "class_loader";
-    rev = "c427a50f0e304d61a8264252547909c0136dae61";
-    hash = "sha256-ggad901FqQbn4bRq4LMnnLkm0gxx/8+cZZb+uUHMnZE=";
-    name = "ros-class_loader-c427a50f0e304d61a8264252547909c0136dae61";
+    rev = "c6399c8f03e78129c3d93e7e0dea27f90ad622ef";
+    hash = "sha256-2WDEJpYXJ9Wat71mfpd16IcZWTeTVbx1iafjHvZIDsg=";
+    name = "ros-class_loader-c6399c8f03e78129c3d93e7e0dea27f90ad622ef";
   });
 in
 {
-  class_loader = pkg "sha256-ggad901FqQbn4bRq4LMnnLkm0gxx/8+cZZb+uUHMnZE=" ".";
+  class_loader = pkg "sha256-2WDEJpYXJ9Wat71mfpd16IcZWTeTVbx1iafjHvZIDsg=" ".";
 }

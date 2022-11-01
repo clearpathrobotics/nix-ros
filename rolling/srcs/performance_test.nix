@@ -3,9 +3,9 @@ let
   pkg = pkgSrc (fetchFromGitLab {
     owner = "ApexAI";
     repo = "performance_test";
-    rev = "d69a0d72e26c98f4513642ab607ce0cfad274f34";
-    hash = "sha256-Hg6G/1t6oldVk8SgGoeW5+E9p4KZp2WtHXbyOxusG6Q=";
-    name = "ApexAI-performance_test-d69a0d72e26c98f4513642ab607ce0cfad274f34";
+    rev = "9e2a1dc651af51e86feee219b36c8005baf2c17d";
+    hash = "sha256-+JGHnZ7XmbCIRVUQbBPwmaFqho2C9QPBDv6N+Bq3UsY=";
+    name = "ApexAI-performance_test-9e2a1dc651af51e86feee219b36c8005baf2c17d";
   });
 in
 {

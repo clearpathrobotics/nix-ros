@@ -3,6 +3,7 @@
   doxygen,
   eigen,
   git,
+  tcb_span,
   tl_expected,
 
   buildColconPackage,
@@ -20,11 +21,13 @@ buildColconPackage {
     doxygen
     eigen
     git
+    tcb_span
     tl_expected
   ];
 
   colconRunDepends = [
     eigen
+    tcb_span
     tl_expected
   ];
 

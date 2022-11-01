@@ -3,11 +3,11 @@ let
   pkg = pkgSrc (fetchFromGitHub {
     owner = "suurjaak";
     repo = "grepros";
-    rev = "e73d7fe7d23acde57f073081d77f532933671b31";
-    hash = "sha256-kkgdxzAM63RqHKntYQDrD++eteFk5qlYabZQp3hNujA=";
-    name = "suurjaak-grepros-e73d7fe7d23acde57f073081d77f532933671b31";
+    rev = "022a1541ebcaf5ef1007d47e653c0c57cadd127d";
+    hash = "sha256-xNIkYkH5iGMMZWXABQF8VH5UPVyLZIyYW7MsG1MZG4E=";
+    name = "suurjaak-grepros-022a1541ebcaf5ef1007d47e653c0c57cadd127d";
   });
 in
 {
-  grepros = pkg "sha256-kkgdxzAM63RqHKntYQDrD++eteFk5qlYabZQp3hNujA=" ".";
+  grepros = pkg "sha256-xNIkYkH5iGMMZWXABQF8VH5UPVyLZIyYW7MsG1MZG4E=" ".";
 }

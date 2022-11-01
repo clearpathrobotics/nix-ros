@@ -3,12 +3,12 @@ let
   pkg = pkgSrc (fetchFromGitHub {
     owner = "fictionlab";
     repo = "aruco_opencv";
-    rev = "8dd38f38bc0fcbcbefa3ad18b9bda926244e02f8";
-    hash = "sha256-nKi6/VBoFjkUYwDzCwAY61XRkULldtsJxN67X0tm/i8=";
-    name = "fictionlab-aruco_opencv-8dd38f38bc0fcbcbefa3ad18b9bda926244e02f8";
+    rev = "f6bf47c0cc9763ea17e42902bab9071526d285e7";
+    hash = "sha256-S0MsXjaUzgz1Fy78UROz41m3Ski3hmCs9e9WVHJTWTw=";
+    name = "fictionlab-aruco_opencv-f6bf47c0cc9763ea17e42902bab9071526d285e7";
   });
 in
 {
-  aruco_opencv = pkg "sha256-7CArv/Br+eJo+WrbnQ0quNGnLy4xbf2V2GcJtRsRyLk=" "aruco_opencv";
+  aruco_opencv = pkg "sha256-06M7xCHgM2lZ4VGgL1bCiKab2I/eqeb69GvT+eFiYjk=" "aruco_opencv";
   aruco_opencv_msgs = pkg "sha256-zqjUjXjOwAqDdhUG8BoGk6eGD1BXYdCrDupAckYZP5M=" "aruco_opencv_msgs";
 }

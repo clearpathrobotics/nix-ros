@@ -3,11 +3,11 @@ let
   pkg = pkgSrc (fetchFromGitHub {
     owner = "autowarefoundation";
     repo = "ros2_socketcan";
-    rev = "8356e0477a9c93488186f4c16adb9c6143325245";
-    hash = "sha256-/bYDPJzDEnhN8feKWH8U/AnS/mk2w8+8FLe2VIgG+jo=";
-    name = "autowarefoundation-ros2_socketcan-8356e0477a9c93488186f4c16adb9c6143325245";
+    rev = "76873dbc7fb2768c4cbbbc7d8143c0e51c1d7264";
+    hash = "sha256-vZ5+xAQo07EgCIaICbZa32GyR5ym+ddE39tHeKrijkI=";
+    name = "autowarefoundation-ros2_socketcan-76873dbc7fb2768c4cbbbc7d8143c0e51c1d7264";
   });
 in
 {
-  ros2_socketcan = pkg "sha256-+mD9xXsH2WyW9ucB0jc2w9lEPzLJCw9Wkroq/IIXxXo=" "ros2_socketcan";
+  ros2_socketcan = pkg "sha256-kyvmhlVy0mIhwz7Tbv+5SUjj+PMv22WoA9c8M7dYlDs=" "ros2_socketcan";
 }

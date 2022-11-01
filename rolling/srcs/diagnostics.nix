@@ -3,13 +3,13 @@ let
   pkg = pkgSrc (fetchFromGitHub {
     owner = "ros";
     repo = "diagnostics";
-    rev = "c22acbfb15121df8193f43bdd6d366f944c5e3cc";
-    hash = "sha256-u6xe7R4c4iuEhCBtfi86h9nl3WgldSwn3Q8UzHp2z/c=";
-    name = "ros-diagnostics-c22acbfb15121df8193f43bdd6d366f944c5e3cc";
+    rev = "7ab0d51bda7df161dfccb78d8229e8432d15d7f8";
+    hash = "sha256-pXLtNZwdYAF3bCTtCBFq0wS8HimFlyjDuzijZgERos4=";
+    name = "ros-diagnostics-7ab0d51bda7df161dfccb78d8229e8432d15d7f8";
   });
 in
 {
-  diagnostic_aggregator = pkg "sha256-tpdVD+rL4fsxRlzWK670J2q8aRp7i9XXsvRRk/Jqlik=" "diagnostic_aggregator";
-  diagnostic_updater = pkg "sha256-AW6zEvv2ePk8JMarkjUM4F9DwemHTR8QqQKDEu1Coms=" "diagnostic_updater";
-  self_test = pkg "sha256-ICsORyeDVsnsK4BtKbUJtbsfV2ilP29fl5cDMeCMlDM=" "self_test";
+  diagnostic_aggregator = pkg "sha256-LdI5lMrQ4LeO4P0okO/YAGroJp7/Yuc4WJES76vZcL8=" "diagnostic_aggregator";
+  diagnostic_updater = pkg "sha256-uWEg61qgYp6CQwAh+AuPEeNWEBJf+7R2+643HMdhu7g=" "diagnostic_updater";
+  self_test = pkg "sha256-FCJD8K1S0pjZ6cKC+8m/bhLzn9W3TrAjt3BTQa/KX6M=" "self_test";
 }

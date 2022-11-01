@@ -1,4 +1,5 @@
 {
+  ros_environment,
   std_msgs,
 
   buildColconPackage,
@@ -12,6 +13,7 @@ buildColconPackage {
   src = srcs.rtcm_msgs.rtcm_msgs;
 
   colconBuildDepends = [
+    ros_environment
     std_msgs
   ];
 

@@ -48,6 +48,7 @@
   dolly = callPackages ./dolly.nix {};
   domain_bridge = callPackages ./domain_bridge.nix {};
   dynamixel_sdk = callPackages ./dynamixel_sdk.nix {};
+  dynamixel_workbench_msgs = callPackages ./dynamixel_workbench_msgs.nix {};
   ecl_core = callPackages ./ecl_core.nix {};
   ecl_lite = callPackages ./ecl_lite.nix {};
   ecl_tools = callPackages ./ecl_tools.nix {};
@@ -358,6 +359,7 @@
   velodyne = callPackages ./velodyne.nix {};
   velodyne_simulator = callPackages ./velodyne_simulator.nix {};
   vision_msgs = callPackages ./vision_msgs.nix {};
+  vision_msgs_layers = callPackages ./vision_msgs_layers.nix {};
   vision_opencv = callPackages ./vision_opencv.nix {};
   visp = callPackages ./visp.nix {};
   vitis_common = callPackages ./vitis_common.nix {};

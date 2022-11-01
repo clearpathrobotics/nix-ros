@@ -1,8 +1,5 @@
 {
   ament_cmake,
-  ament_cmake_clang_format,
-  ament_lint_auto,
-  ament_lint_common,
   git,
   zstd_vendor,
 
@@ -27,8 +24,5 @@ buildColconPackage {
   ];
 
   colconTestDepends = [
-    ament_cmake_clang_format
-    ament_lint_auto
-    ament_lint_common
   ];
 }

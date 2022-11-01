@@ -3,9 +3,9 @@ let
   pkg = pkgSrc (fetchFromGitHub {
     owner = "ros2";
     repo = "examples";
-    rev = "0410665143fd89b33e98b4c7d90829b32a6158f7";
-    hash = "sha256-PPqjIlCeUa+fxacNsdvUWaXx8QOUQW0UthHNMFOaSRI=";
-    name = "ros2-examples-0410665143fd89b33e98b4c7d90829b32a6158f7";
+    rev = "b70e515d58cf44eef54706322d05ec0a30479022";
+    hash = "sha256-ZkDTJ7n8L34I3NuDKpLzZQ1IhSPnIlk4piHJSrnKit4=";
+    name = "ros2-examples-b70e515d58cf44eef54706322d05ec0a30479022";
   });
 in
 {
@@ -30,5 +30,5 @@ in
   examples_rclpy_minimal_service = pkg "sha256-V1UHGj8xwPM7/h4FY6Pg3+nuip8mJgII2bV2atPJAb0=" "rclpy/services/minimal_service";
   examples_rclpy_minimal_subscriber = pkg "sha256-QxuQ0lawYopWZCE2m5ScLux3Kw9kwhryU+qBSBecgtU=" "rclpy/topics/minimal_subscriber";
   examples_rclpy_pointcloud_publisher = pkg "sha256-dHj1hmi+ogy69eQ3fmZVgFOTrOHbZ+a7cU30AjBqhQg=" "rclpy/topics/pointcloud_publisher";
-  launch_testing_examples = pkg "sha256-wfkSvw+ABeDWW8+uwxgeidbpS9yhbo+0vowIfMISsg4=" "launch_testing/launch_testing_examples";
+  launch_testing_examples = pkg "sha256-+D7cfmndnjsndn3zB4amlPAan14hlN/TUNurvcJwM0A=" "launch_testing/launch_testing_examples";
 }

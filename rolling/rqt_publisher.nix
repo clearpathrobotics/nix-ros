@@ -1,7 +1,10 @@
 {
+  ament_index_python,
   python3Packages,
   python_qt_binding,
   qt_gui_py_common,
+  rclpy,
+  rosidl_runtime_py,
   rqt_gui,
   rqt_gui_py,
   rqt_py_common,
@@ -20,9 +23,12 @@ buildColconPackage {
   ];
 
   colconRunDepends = [
-    python3Packages.catkin-pkg
+    ament_index_python
+    python3Packages.numpy
     python_qt_binding
     qt_gui_py_common
+    rclpy
+    rosidl_runtime_py
     rqt_gui
     rqt_gui_py
     rqt_py_common

@@ -3,11 +3,11 @@ let
   pkg = pkgSrc (fetchFromGitHub {
     owner = "jsk-ros-pkg";
     repo = "euslime";
-    rev = "0e902f5bfcc95becc7ca069dbadb858280d7d82e";
-    hash = "sha256-jRuv5ZMWDm35EfgVlYE4I5EbiKirr+tgNL+Vy3+Y93k=";
-    name = "jsk-ros-pkg-euslime-0e902f5bfcc95becc7ca069dbadb858280d7d82e";
+    rev = "4edf652bce0626ad244ee7222e183e8415aa3971";
+    hash = "sha256-o93HIGsTkPvOfn8wG1QJtymgtmRx1MtbIYmrleIolDc=";
+    name = "jsk-ros-pkg-euslime-4edf652bce0626ad244ee7222e183e8415aa3971";
   });
 in
 {
-  euslime = pkg "sha256-jRuv5ZMWDm35EfgVlYE4I5EbiKirr+tgNL+Vy3+Y93k=" ".";
+  euslime = pkg "sha256-o93HIGsTkPvOfn8wG1QJtymgtmRx1MtbIYmrleIolDc=" ".";
 }

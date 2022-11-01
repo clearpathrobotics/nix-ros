@@ -20,6 +20,7 @@
   robot_state_publisher,
   ros2_controllers_test_nodes,
   rviz2,
+  socat,
   std_msgs,
   std_srvs,
   tf2_geometry_msgs,
@@ -82,6 +83,7 @@ buildColconPackage {
     robot_state_publisher
     ros2_controllers_test_nodes
     rviz2
+    socat
     std_msgs
     std_srvs
     tf2_geometry_msgs

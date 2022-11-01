@@ -3,11 +3,11 @@ let
   pkg = pkgSrc (fetchFromGitHub {
     owner = "ijnek";
     repo = "soccer_object_msgs";
-    rev = "18144b612abef5219658c99f2a71ea66025f5b28";
-    hash = "sha256-2kweKjwQqCrwMUaP4ddCNQTNcPR+lGzM/g8iwzb/QH8=";
-    name = "ijnek-soccer_object_msgs-18144b612abef5219658c99f2a71ea66025f5b28";
+    rev = "b8afa13c6e00836dceda00322593d81802bd3dda";
+    hash = "sha256-osJgWvej6UcU+BYi2uVgk/0T+Llr1DrpMYyN7Ct91oc=";
+    name = "ijnek-soccer_object_msgs-b8afa13c6e00836dceda00322593d81802bd3dda";
   });
 in
 {
-  soccer_object_msgs = pkg "sha256-2kweKjwQqCrwMUaP4ddCNQTNcPR+lGzM/g8iwzb/QH8=" ".";
+  soccer_object_msgs = pkg "sha256-osJgWvej6UcU+BYi2uVgk/0T+Llr1DrpMYyN7Ct91oc=" ".";
 }

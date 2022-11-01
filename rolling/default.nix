@@ -174,6 +174,7 @@ in {
         dynamixel_sdk = callPackage ./dynamixel_sdk.nix;
         dynamixel_sdk_custom_interfaces = callPackage ./dynamixel_sdk_custom_interfaces.nix;
         dynamixel_sdk_examples = callPackage ./dynamixel_sdk_examples.nix;
+        dynamixel_workbench_msgs = callPackage ./dynamixel_workbench_msgs.nix;
         ecl_build = callPackage ./ecl_build.nix;
         ecl_command_line = callPackage ./ecl_command_line.nix;
         ecl_concepts = callPackage ./ecl_concepts.nix;
@@ -1014,6 +1015,7 @@ in {
         velodyne_pointcloud = callPackage ./velodyne_pointcloud.nix;
         velodyne_simulator = callPackage ./velodyne_simulator.nix;
         vision_msgs = callPackage ./vision_msgs.nix;
+        vision_msgs_layers = callPackage ./vision_msgs_layers.nix;
         vision_opencv = callPackage ./vision_opencv.nix;
         visualization_msgs = callPackage ./visualization_msgs.nix;
         vitis_common = callPackage ./vitis_common.nix;

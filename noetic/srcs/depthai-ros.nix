@@ -3,14 +3,14 @@ let
   pkg = pkgSrc (fetchFromGitHub {
     owner = "luxonis";
     repo = "depthai-ros";
-    rev = "9ac79711a7ae247588a86c75911ddb306e03617f";
-    hash = "sha256-IUkfnja3r9yuD639B6ecwLyivS41hO5EdCirJ/4FtPY=";
-    name = "luxonis-depthai-ros-9ac79711a7ae247588a86c75911ddb306e03617f";
+    rev = "af3a1ebff8d3ec8eecdece344d1250805294d520";
+    hash = "sha256-j82Z4MZJBc1slj1SbeCJjs9Khl7D7i/xhLJFeqZveLQ=";
+    name = "luxonis-depthai-ros-af3a1ebff8d3ec8eecdece344d1250805294d520";
   });
 in
 {
   depthai-ros = pkg "sha256-Qmzfjn+hrhEjSkq14ihEZ0G7eryux541cOw9wl+dKRE=" "depthai-ros";
-  depthai_bridge = pkg "sha256-SBs5Wk0bKWYWuO9st1zkhY6cvjGzkAmdiKM5MeoziJA=" "depthai_bridge";
+  depthai_bridge = pkg "sha256-GSZAjJTe2Annqd45AUDsirTOaAtfQ6N/GZB9xX8SX+M=" "depthai_bridge";
   depthai_examples = pkg "sha256-jNdC+tO9BWqd4vbNU9UTHzW/9/swXohbA4gKCIOcDmM=" "depthai_examples";
   depthai_ros_msgs = pkg "sha256-l8V7kaXNFQtgazo6zWSHDa62NrxTB1aKfKpR21pIgrU=" "depthai_ros_msgs";
 }
